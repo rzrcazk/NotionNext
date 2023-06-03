@@ -1,28 +1,22 @@
 {
-  "name": "go-proxy-bingai",
-  "version": 2,
   "builds": [
     {
-      "src": "/api/{index,web,sydney,sys-config}.go",
-      "use": "@vercel/go"
+      "src": "src/pandora_cloud/server.py",
+      "use": "@vercel/python"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/sysconf",
-      "dest": "/api/sys-config.go"
+      "source":"/api/:path((?!auth|accounts).*)",
+      "destination":"https://ai.fakeopen.com/api/:path*"
     },
     {
-      "src": "/sydney/.*",
-      "dest": "/api/sydney.go"
+      "source":"/v1/:path(.*)",
+      "destination":"https://api.openai.com/v1/:path*"
     },
     {
-      "src": "/web/.*",
-      "dest": "/api/web.go"
-    },
-    {
-      "src": "/.*",
-      "dest": "/api/index.go"
+      "source": "/(.*)",
+      "destination": "src/pandora_cloud/server.py"
     }
   ]
 }
