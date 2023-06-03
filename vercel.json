@@ -1,22 +1,5 @@
 {
-  "builds": [
-    {
-      "src": "src/pandora_cloud/server.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "rewrites": [
-    {
-      "source":"/api/:path((?!auth|accounts).*)",
-      "destination":"https://ai.fakeopen.com/api/:path*"
-    },
-    {
-      "source":"/v1/:path(.*)",
-      "destination":"https://api.openai.com/v1/:path*"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "src/pandora_cloud/server.py"
-    }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": []
 }
