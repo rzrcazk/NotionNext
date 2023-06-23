@@ -30,9 +30,9 @@ const PrismMac = () => {
           window.Prism.plugins.autoloader.languages_path = BLOG.PRISM_JS_PATH
         }
         renderPrismMac()
+        renderMermaid()
       })
     }
-    renderMermaid()
   }, [])
   return <></>
 }
