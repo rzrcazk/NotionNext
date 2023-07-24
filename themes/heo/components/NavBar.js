@@ -139,14 +139,14 @@ const NavBar = props => {
                 {/* 中间菜单 */}
                 <div id='nav-bar-swipe' className={`hidden lg:flex flex-grow flex-col items-center justify-center h-full relative w-full ${activeIndex === 0 ? 'fade-in-down' : 'fade-in-up'}`}>
                     {activeIndex === 0 && <MenuListTop {...props} />}
-                    {activeIndex === 1 && <h1 className='font-bold text-center text-light-400 dark:text-gray-400'>{BLOG.AUTHOR || BLOG.TITLE} | {BLOG.BIO}</h1>}
+                    {activeIndex === 1 && <h1 className='font-bold text-center text-light-400 dark:text-gray-400'>{BLOG.AUTHOR || BLOG.TITLE} {BLOG.BIO && <>|</>} {BLOG.BIO}</h1>}
                 </div>
 
                 {/* 右侧固定 */}
                 <div className='flex flex-shrink-0 justify-center items-center space-x-1'>
                     <RandomPostButton {...props} />
                     <SearchButton />
-                    {!JSON.parse(BLOG.THEME_SWITCH) && <DarkModeButton {...props} />}
+                    {!JSON.parse(BLOG.THEME_SWITCH) && <div className='hidden md:block'><DarkModeButton {...props} /></div>}
                     <ReadingProgress />
 
                     {/* 移动端菜单按钮 */}
