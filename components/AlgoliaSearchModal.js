@@ -113,7 +113,7 @@ export default function AlgoliaSearchModal({ cRef }) {
                 </div>
 
                 <input type="text" placeholder="在这里输入搜索关键词..." onChange={(e) => handleInputChange(e)}
-                    className="bg-gray-50 dark:bg-gray-600 outline-blue-500 w-full px-4 my-2 py-1 mb-4 border rounded-md" />
+                    className="text-black dark:text-gray-200 bg-gray-50 dark:bg-gray-600 outline-blue-500 w-full px-4 my-2 py-1 mb-4 border rounded-md" />
 
                 {/* 标签组 */}
                 <div className='mb-4'>
@@ -123,7 +123,7 @@ export default function AlgoliaSearchModal({ cRef }) {
                 <ul>
                     {searchResults.map((result) => (
                         <li key={result.objectID} className="replace my-2">
-                            <a href={`${BLOG.SUB_PATH}/${result.slug}`} className="font-bold hover:text-blue-600 ">
+                            <a href={`${BLOG.SUB_PATH}/${result.slug}`} className="font-bold hover:text-blue-600 text-black dark:text-gray-200">
                                 {result.title}
                             </a>
                         </li>
@@ -132,7 +132,7 @@ export default function AlgoliaSearchModal({ cRef }) {
 
                 <Pagination totalPage={totalPage} page={page} switchPage={switchPage}/>
                 <div>{totalHit > 0 && <div>共搜索到 {totalHit} 条结果，用时 {useTime} 毫秒</div> }</div>
-                <div className='text-gray-600 mt-2'><span><i class="fa-brands fa-algolia"></i> Algolia 提供搜索服务</span> </div>
+                <div className='text-gray-600 mt-2'><span><i className="fa-brands fa-algolia"></i> Algolia 提供搜索服务</span> </div>
             </div>
 
             {/* 遮罩 */}
