@@ -15,6 +15,11 @@
   </a>
 </p>
 
+
+中文文档 | [README in English](./README_EN.md)
+
+<hr/>
+
 一个使用 NextJS + Notion API 实现的，部署在 Vercel 上的静态博客系统。为Notion和所有创作者设计。
 
 
@@ -28,8 +33,17 @@
 
 ## 我要如何开始？
 
-只需几分钟即可搭建您的个人站点，查看教程 [教程说明](https://tangly1024.com/article/notion-next) 
+只需几分钟即可搭建您的个人站点：
 
+- [部署教程 (支持多方案)](https://docs.tangly1024.com/) 
+
+- [配置手册 - (自定义插件)](https://docs.tangly1024.com/article/notion-next-guide) 
+
+- [二次开发 - (开发手册)](https://docs.tangly1024.com/article/notion-next-secondary-menu)
+
+- [更新指南 - (升级您的代码)](https://docs.tangly1024.com/article/how-to-update-notionnext)
+
+- [版本汇总 - (查询变动功能)](https://docs.tangly1024.com/article/notion-next-changelogs)
 
 ## 致谢
 感谢Craig Hart发起的Nobelium项目
@@ -140,6 +154,38 @@
   
   <td align="center">
     <a href="https://github.com/sudeakq" style="display:inline-block;width:80px"><img src="https://avatars.githubusercontent.com/u/102792219" width="64px;"  alt="Sude Akgün"/><br/><sub><b>Sude Akgün</b></sub></a><br/><a href="https://github.com/tangly1024/NotionNext/commits?author=sudeakq" title="sudeakq" >🔧 🐛</a>
+  </td>
+
+  <td align="center">
+    <a href="https://github.com/fgprodigal" style="display:inline-block;width:80px"><img src="https://avatars.githubusercontent.com/u/769910" width="64px;"  alt="Ray"/><br/><sub><b>Ray</b></sub></a><br/><a href="https://github.com/tangly1024/NotionNext/commits?author=fgprodigal" title="Ray" >🔧 🐛</a>
+  </td>
+
+  <td align="center">
+    <a href="https://github.com/hongzzz" style="display:inline-block;width:80px"><img src="https://avatars.githubusercontent.com/u/25585061" width="64px;"  alt="Hongzzz"/><br/><sub><b>Hongzzz</b></sub></a><br/><a href="https://github.com/tangly1024/NotionNext/commits?author=hongzzz" title="hongzzz" >🔧 🐛</a>
+  </td>
+
+  <td align="center">
+    <a href="https://github.com/RedhairHambagu" style="display:inline-block;width:80px"><img src="https://avatars.githubusercontent.com/u/129669334" width="64px;"  alt="RedhairHambagu"/><br/><sub><b>RedhairHambagu</b></sub></a><br/><a href="https://github.com/tangly1024/NotionNext/commits?author=RedhairHambagu" title="RedhairHambagu" >🔧 🐛</a>
+  </td>
+
+  <td align="center">
+    <a href="https://github.com/Allengl" style="display:inline-block;width:80px"><img src="https://avatars.githubusercontent.com/u/58612763" width="64px;"  alt="Allen"/><br/><sub><b>Allen</b></sub></a><br/><a href="https://github.com/tangly1024/NotionNext/commits?author=Allengl" title="Allengl" >🔧 🐛</a>
+  </td>
+
+  <td align="center">
+    <a href="https://github.com/zdf1230" style="display:inline-block;width:80px"><img src="https://avatars.githubusercontent.com/u/5999425" width="64px;"  alt="zdf1230"/><br/><sub><b>zdf</b></sub></a><br/><a href="https://github.com/tangly1024/NotionNext/commits?author=zdf1230" title="zdf1230" >🔧 🐛</a>
+  </td>
+
+  <td align="center">
+    <a href="https://github.com/emengweb" style="display:inline-block;width:80px"><img src="https://avatars.githubusercontent.com/u/31469739" width="64px;"  alt="emengweb"/><br/><sub><b>emengweb</b></sub></a><br/><a href="https://github.com/tangly1024/NotionNext/commits?author=emengweb" title="emengweb" >🔧 🐛</a>
+  </td>
+
+  <td align="center">
+    <a href="https://github.com/kitety" style="display:inline-block;width:80px"><img src="https://avatars.githubusercontent.com/u/22906933" width="64px;"  alt="kitety"/><br/><sub><b>kitety</b></sub></a><br/><a href="https://github.com/tangly1024/NotionNext/commits?author=kitety" title="kitety" >🔧 🐛</a>
+  </td>
+
+ <td align="center">
+    <a href="https://github.com/jxpeng98" style="display:inline-block;width:80px"><img src="https://avatars.githubusercontent.com/u/83734772" width="64px;"  alt=" Jiaxin Peng"/><br/><sub><b> Jiaxin Peng</b></sub></a><br/><a href="https://github.com/tangly1024/NotionNext/commits?author=jxpeng98" title="jxpeng98" >🔧 🐛</a>
   </td>
 
 </tr>
